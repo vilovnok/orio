@@ -9,3 +9,4 @@
 - searxng (web search)
 - searche elastic
 - small talk
+- a2a harness 
