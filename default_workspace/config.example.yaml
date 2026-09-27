@@ -1,0 +1,80 @@
+# LLM provider configuration
+llm:
+  providers:
+    openai:
+      model: <MODEL_NAME>
+      api_key: <API_KEY>
+      base_url: <OPENAI_COMPATIBLE_BASE_URL>
+      temperature: 0.3
+      max_tokens: 4096
+      enable_thinking: false
+      provider: openai
+
+    gigachat:
+      model: <MODEL_NAME>
+      api_key: <API_KEY>
+      api_base: <GIGACHAT_API_BASE_URL>
+      temperature: 0.7
+      max_tokens: 2048
+      enable_thinking: false
+      provider: gigachat
+
+
+# Web search service
+web_search:
+  host: <SEARXNG_HOST>
+  port: <SEARXNG_PORT>
+
+
+# A2A service
+a2a:
+  host: <A2A_HOST>
+  port: <A2A_PORT>
+  secret: <A2A_SECRET>
+
+
+# Beanstalkd message broker
+beanstalkd:
+  host: <BEANSTALKD_HOST>
+  port: 11300
+  jobs_queue: <JOBS_QUEUE>
+  results_queue: <RESULTS_QUEUE>
+
+
+# Copilot configuration
+copilot:
+  max_loop_count: 12
+  history_max_tokens: 1500
+  models:
+    gpt_search_preview: <SEARCH_MODEL_NAME>
+    validate_answers: <VALIDATION_MODEL_NAME>
+    small_talk: <SMALL_TALK_MODEL_NAME>
+
+
+# Billing service
+billing:
+  base_url: <BILLING_BASE_URL>
+  secret_key: <BILLING_SECRET_KEY>
+  copilot_service_name: <COPILOT_SERVICE_NAME>
+
+
+# Elasticsearch
+elasticsearch:
+  host: <ELASTICSEARCH_HOST>
+  port: <ELASTICSEARCH_PORT>
+  account_id: <ACCOUNT_ID>
+  index: <ELASTICSEARCH_INDEX>
+
+
+# Localization
+locales:
+  locales_dir: ./src/langs/locales
+
+
+# Metrics
+metrics_config:
+  prefix: <METRICS_PREFIX>
+
+
+# Default agent
+default_agent: <DEFAULT_AGENT>

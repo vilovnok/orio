@@ -1,0 +1,40 @@
+name: copilot
+
+services:
+  redis:
+    image: redis:7.2
+    restart: always
+    ports:
+      - "6379:6379"
+    command: [ "redis-server", "--appendonly", "yes", "--requirepass", "mypassword" ]
+    networks:
+      - network
+
+
+  # beanstalkd:
+  #   image: schickling/beanstalkd
+  #   container_name: "beanstalkd"
+  #   hostname: "beanstalkd"
+  #   restart: "always"
+  #   ports:
+  #     - "11300:11300"
+  #   networks:
+  #     - network
+
+
+  # a2a_agent:
+  #   build:
+  #     context: .
+  #   container_name: copilot_a2a_agent
+  #   ports:
+  #     - "5001:5001"
+  #   env_file:
+  #     - ./.env
+  #   command: ["run-a2a"]
+  #   networks:
+  #     - network
+
+
+networks:
+  network:
+    name: "network"

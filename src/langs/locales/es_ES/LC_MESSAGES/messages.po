@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kommo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-12 16:30+0300\n"
+"PO-Revision-Date: 2025-04-12 16:30+0300\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: lokalise.com\n"
+"Language-Team: lokalise.com\n\n"
+"X-Generator: lokalise.com\n"
+
+msgid "Hello World"
+msgstr "Hi es"
+
+msgid "I couldn't find an answer to that in Kommo's knowledge base or online. If you need help, feel free to reach out to our support team."
+msgstr "No pude encontrar una respuesta a eso en la base de conocimientos de Kommo o en línea. Si aún necesitas ayuda, puedo conectarte con nuestro equipo de soporte.\n\n¿Te gustaría compartir este hilo con ellos para agilizar el proceso?"
+
+msgid "Unable to use this feature. Please contact our support team or try again later."
+msgstr "No se puede utilizar esta función. Por favor, contacta a nuestro equipo de soporte o inténtalo nuevamente más tarde."

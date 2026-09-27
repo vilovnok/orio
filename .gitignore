@@ -1,0 +1,9 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+.env
+config.user.yaml
+version.txt
+
+# Virtual environments
+.venv/
