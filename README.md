@@ -1,8 +1,11 @@
 # Orion
 
+![preview](assets/preview.png)
 
-Компоненты мультиагентная система:
+
+
+
+Компоненты мультиагентной системы, нужно доработать
 - searxng (web search)
-- searche lastic
+- searche elastic
 - small talk
-- 
